@@ -11,7 +11,6 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-          
         Log.i("东风很多犯","是我的佛燃股份");
         Log.i("东风很多犯001","是我的佛燃股份001");
 
