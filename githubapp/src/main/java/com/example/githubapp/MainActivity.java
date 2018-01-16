@@ -14,6 +14,14 @@ public class MainActivity extends AppCompatActivity {
           
         Log.i("东风很多犯","是我的佛燃股份");
         Log.i("东风很多犯001","是我的佛燃股份001");
-         
+
+        init();
+
+
+
+
+    }
+    private void init() {
+        System.out.println(" = " +"国是我的国  家是我的家");
     }
 }
