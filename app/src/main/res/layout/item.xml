@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="50dp"
+
+     android:orientation="horizontal"
+     android:background="@color/customred"
+    >
+    <TextView
+        android:id="@+id/text02"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="返回"
+        />
+    <TextView
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="2"
+        android:text="商品详情"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary"
+
+        />
+    <TextView
+        android:id="@+id/next01"
+        android:gravity="center"
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:text="下一页"
+        />
+
+
+
+
+</LinearLayout>

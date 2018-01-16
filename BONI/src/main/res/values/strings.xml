@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">博尼音乐</string>
+    <string-array name="list">
+        <item>分享1</item>
+        <item>查看歌手信息2</item>
+        <item>下载3</item>
+    </string-array>
+</resources>

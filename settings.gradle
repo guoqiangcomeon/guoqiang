@@ -1,0 +1,1 @@
+include ':app', ':base', ':BONI', ':myapplication', ':githubapp'

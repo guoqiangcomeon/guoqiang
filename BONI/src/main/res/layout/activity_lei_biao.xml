@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_lei_biao"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/line1"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:background="#F44336"
+        android:layout_width="match_parent"
+        android:layout_height="70dp">
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/ic_action_back"
+            android:layout_width="30dp"
+            android:layout_height="30dp" />
+
+        <TextView
+            android:text="百度热歌榜"
+            android:textSize="20dp"
+            android:textColor="#ffffff"
+            android:layout_marginLeft="30dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="100dp">
+
+        <ImageView
+            android:id="@+id/beijing"
+            android:scaleType="fitXY"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+        <ImageView
+            android:id="@+id/tubiao"
+            android:layout_margin="10dp"
+            android:layout_width="80dp"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_toRightOf="@+id/tubiao"
+            android:layout_margin="10dp"
+            android:gravity="center_vertical"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/text1"
+                android:text="热歌榜"
+                android:textSize="20dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text2"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:text="最近更新：2017.03.23"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/text3"
+                android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+    </RelativeLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_leibiao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </android.support.v7.widget.RecyclerView>
+</LinearLayout>
