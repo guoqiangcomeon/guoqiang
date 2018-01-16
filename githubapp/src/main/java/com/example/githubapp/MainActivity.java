@@ -12,6 +12,6 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
 
         Log.i("东风很多犯","是我的佛燃股份");
-
+             
     }
 }
